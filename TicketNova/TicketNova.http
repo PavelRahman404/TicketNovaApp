@@ -1,0 +1,6 @@
+@TicketNova_HostAddress = http://localhost:5072
+
+GET {{TicketNova_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

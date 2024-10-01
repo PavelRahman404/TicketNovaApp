@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TicketNova_Core\TicketNova_Core.csproj" />
+    <ProjectReference Include="..\TicketNova_Domain\TicketNova_Domain.csproj" />
+    <ProjectReference Include="..\TicketNova_Infrastructure\TicketNova_Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
